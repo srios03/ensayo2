@@ -5,7 +5,15 @@
 </head>
 <body>
     <form>
-        <input type="text"  id="myText" name="name"  placeholder="cualquier texto">              
+        <input class="campoFormulario" type="text"  id="myText" name="name"  placeholder="cualquier texto">
+        <input class="campoFormulario" type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre">
+        <p class="errores" id="errorNombre"></p>
+        <input class="campoFormulario" type="text" id="apellido" name="apellido" placeholder="Ingrese su Apellido">
+        <p class="errores" id="errorApellido"></p>
+        <input class="campoFormulario"type="text" id="telefono" name="telefono" placeholder="Ingrese su celular">
+        <p class="errores" id="errorTelefono"></p>
+        <input class="campoFormulario"type="text" id="email" name="correo" placeholder="Ingrese su email">
+        <p class="errores" id="errorCorreo"></p>              
     </form>
     <button id="boton">Submit</button>
     <p id="demo"></p>
